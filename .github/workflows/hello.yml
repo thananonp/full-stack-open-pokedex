@@ -18,7 +18,7 @@ jobs:
       - name: It is
         run: |
           echo date
-  hello_world_job:
+  list_dir_job:
     runs-on: ubuntu-18.04
     steps:
       - name: Directory
