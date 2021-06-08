@@ -7,7 +7,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  job-lint:
+  job-pipeline:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
