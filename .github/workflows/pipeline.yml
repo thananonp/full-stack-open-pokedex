@@ -7,7 +7,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  simple_deployment_pipeline:
+  job-lint:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
@@ -18,3 +18,7 @@ jobs:
         run: npm install
       - name: lint
         run: npm run eslint
+      - name: build
+        run: npm run build
+      - name: test
+        run: npm run test
