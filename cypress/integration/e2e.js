@@ -1,4 +1,4 @@
-// e2e.test.js created with Cypress
+// e2e.js created with Cypress
 //
 // Start writing your Cypress tests below!
 // If you're unfamiliar with how Cypress works,
